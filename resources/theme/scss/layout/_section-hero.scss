@@ -1,0 +1,16 @@
+#hero {
+  background-color: $horizon;
+
+  .title {
+    @include media-breakpoint-up(xl) {
+      font-size: 40px;
+    }
+  }
+
+  .image-text__imageWrapper {
+    display: none;
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
+  }
+}

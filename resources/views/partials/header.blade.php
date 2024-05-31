@@ -3,7 +3,7 @@
         <div class="row align-items-center mainRow g-lg-0">
             <div class="col-auto logo">
                 <a href="{{ url('/#homepage') }}" data-hash="#homepage">
-                    <img src="{{ Vite::asset('resources/assets/img/logo-els.jpg') }}" alt="Logo ELS-TOGO">
+                    <img src="{{ Vite::asset('resources/theme/img/logo-els.jpg') }}" alt="Logo ELS-TOGO">
                 </a>
             </div>
             <nav class="col nav">

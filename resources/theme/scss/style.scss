@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import 'abstracts/functions';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/animations';
+@import 'abstracts/keyframes';
+@import 'abstracts/responsive';
+
+// 2. Vendors
+@import '../lib/bootstrap5/scss/bootstrap-reboot.scss';
+@import '../lib/bootstrap5/scss/bootstrap-grid.scss';
+@import '../lib/bootstrap5/scss/card';
+
+// 3. Base stuff
+@import 'base/root';
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'base/helpers';
+
+// 4. Layout-related sections
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/layout-main';
+@import 'layout/section-hero';
+@import 'layout/mission-section';
+@import 'layout/team-section';
+@import 'layout/our-projects';
+@import 'layout/section-contact';
+
+// 5. Components
+@import 'components/button';
+@import 'components/image-text';
+@import 'components/text-cards-horizon';
+@import 'components/modal';
+@import 'components/box-cards';
+@import 'components/three-col-block';
+@import 'components/items-rows';
+@import 'components/list-boxes';
+
+// 6. Page-specific styles
+@import 'pages/home';
+@import 'pages/404';
+@import 'pages/project';
+@import 'pages/cooking';
+
+// 7. Themes
+@import 'themes/default';

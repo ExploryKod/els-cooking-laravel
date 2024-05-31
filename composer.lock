@@ -4,7 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d10edfe967d90e70d0d848b0281debd",
+
+    "content-hash": "c5bb8fa389cd63b1c8c573509519dcf0",
+
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1711,16 +1713,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.9.1",
+            "version": "v11.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "60167ce91c59ed5eea2ad4f2a7b6d686fb103ba7"
+                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/60167ce91c59ed5eea2ad4f2a7b6d686fb103ba7",
-                "reference": "60167ce91c59ed5eea2ad4f2a7b6d686fb103ba7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2b3e8d75f10b0ed17416282946355dc026bf326c",
+                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c",
                 "shasum": ""
             },
             "require": {

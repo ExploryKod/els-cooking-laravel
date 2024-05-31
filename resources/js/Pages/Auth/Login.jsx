@@ -88,16 +88,8 @@ export default function Login({ status, canResetPassword }) {
                     )}
 
                     <PrimaryButton className="ms-4" disabled={processing}>
-                        Se connecter
+                        Log in
                     </PrimaryButton>
-                </div>
-                <div className={"flex items-center justify-end mt-4"}>
-                    <Link
-                        href={route('register')}
-                        className="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    >
-                        S'enregistrer
-                    </Link>
                 </div>
             </form>
         </GuestLayout>
