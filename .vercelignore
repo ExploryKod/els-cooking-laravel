@@ -1,7 +1,6 @@
 /vendor
 /.idea
 /node_modules
-resources/theme
 Dockerfile
 docker-compose.yml
 start.sh
