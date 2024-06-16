@@ -7,10 +7,10 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/js/app.jsx',
-                'resources/theme/scss/style.scss',
+                // 'resources/theme/scss/style.scss',
                 'resources/css/app.css',
-                'resources/theme/js/script.js',
-                'resources/theme/lib/jquery/jquery-3.7.1.min.js'
+                // 'resources/theme/js/script.js',
+                // 'resources/theme/lib/jquery/jquery-3.7.1.min.js'
             ],
             ssr: 'resources/js/ssr.jsx',
             refresh: true,

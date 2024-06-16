@@ -39,15 +39,15 @@ export default function Authenticated({ user, header, flash, children }) {
                                 <NavLink href={route('cooking-team.index')} active={route().current('cooking-team.index')}>
                                     Notre équipe
                                 </NavLink>
-                                <NavLink href={route('cooking-projects.index')} active={route().current('cooking-projects.index')}>
-                                    Nos Projets
-                                </NavLink>
-                                <NavLink href={route('cooking-medias.index')} active={route().current('cooking-medias.index')}>
-                                    Galerie
-                                </NavLink>
-                                <NavLink href={route('file.upload')} active={route().current('file.upload')}>
-                                    Gestion des fichiers
-                                </NavLink>
+                                {/*<NavLink href={route('cooking-projects.index')} active={route().current('cooking-projects.index')}>*/}
+                                {/*    Nos Projets*/}
+                                {/*</NavLink>*/}
+                                {/*<NavLink href={route('cooking-medias.index')} active={route().current('cooking-medias.index')}>*/}
+                                {/*    Galerie*/}
+                                {/*</NavLink>*/}
+                                {/*<NavLink href={route('file.upload')} active={route().current('file.upload')}>*/}
+                                {/*    Gestion des fichiers*/}
+                                {/*</NavLink>*/}
                             </div>
                         </div>
 
@@ -125,15 +125,15 @@ export default function Authenticated({ user, header, flash, children }) {
                         <ResponsiveNavLink href={route('cooking-team.index')} active={route().current('cooking-team.index')}>
                             Notre équipe
                         </ResponsiveNavLink>
-                        <ResponsiveNavLink href={route('cooking-projects.index')} active={route().current('cooking-projects.index')}>
-                            Nos Projets
-                        </ResponsiveNavLink>
-                        <ResponsiveNavLink href={route('cooking-medias.index')} active={route().current('cooking-medias.index')}>
-                            Galerie
-                        </ResponsiveNavLink>
-                        <ResponsiveNavLink href={route('file.upload')} active={route().current('file.upload')}>
-                            Gestion des fichiers
-                        </ResponsiveNavLink>
+                        {/*<ResponsiveNavLink href={route('cooking-projects.index')} active={route().current('cooking-projects.index')}>*/}
+                        {/*    Nos Projets*/}
+                        {/*</ResponsiveNavLink>*/}
+                        {/*<ResponsiveNavLink href={route('cooking-medias.index')} active={route().current('cooking-medias.index')}>*/}
+                        {/*    Galerie*/}
+                        {/*</ResponsiveNavLink>*/}
+                        {/*<ResponsiveNavLink href={route('file.upload')} active={route().current('file.upload')}>*/}
+                        {/*    Gestion des fichiers*/}
+                        {/*</ResponsiveNavLink>*/}
                     </div>
 
                     <div className="pt-4 pb-1 border-t border-gray-200">
